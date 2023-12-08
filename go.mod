@@ -1,4 +1,5 @@
-// will not build with this module name github.com/tildeleb/amodule
+// amodule will build as a program with module name of amodule but not github.com/tildeleb/amodule
+// amodule woth build as module ONLY with module name github.com/tildeleb/amodule
 
 module amodule
 
