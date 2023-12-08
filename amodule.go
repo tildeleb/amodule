@@ -1,10 +1,10 @@
-package amodule
+package main
 
 import (
 	"fmt"
 
+	"github.com/tildeleb/amodule/internal/two"
 	"github.com/tildeleb/amodule/one"
-	"github.com/tildeleb/amodule/two"
 )
 
 func SubMain() {
@@ -13,8 +13,6 @@ func SubMain() {
 	two.Print()
 }
 
-/*
 func main() {
 	SubMain()
 }
-*/
