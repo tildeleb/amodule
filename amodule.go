@@ -1,18 +1,14 @@
-package main
+package amodule
 
 import (
 	"fmt"
 
-	"amodule/internal/two"
-	"amodule/one"
+	"github.com/tildeleb/amodule/internal/two"
+	"github.com/tildeleb/amodule/one"
 )
 
 func SubMain() {
 	fmt.Printf("SubMain\n")
 	one.Print()
 	two.Print()
-}
-
-func main() {
-	SubMain()
 }
