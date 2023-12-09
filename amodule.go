@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/tildeleb/amodule/internal/two"
-	"github.com/tildeleb/amodule/one"
+	"amodule/internal/two"
+	"amodule/one"
 )
 
 func SubMain() {
